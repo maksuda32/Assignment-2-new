@@ -4,8 +4,38 @@
     }
     .icon {
         display: block;
+        
     }
     .nav-links {
         display: none;
+    }
+    .banner-container {
+        flex-direction: column;
+    }
+    .banner-title, .banner-des{
+        margin-left: 15px;
+    }
+    .button-div {
+        margin-left: 10px;
+    }
+    .banner {
+        width: 100%;
+    }
+    .btn-primary {
+        padding: 10px 25px;
+    }
+    .banner img {
+        height: 590px;
+        width: 100%;
+    }
+    #position {
+        position: absolute;
+     
+        top: 85%;
+        right: 3%;
+     }
+     .button-2 {
+        position: absolute;
+        top: 110%;
     }
 }
