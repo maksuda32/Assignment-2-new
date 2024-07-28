@@ -1,0 +1,11 @@
+@media screen and (max-width:576px) {
+    .navber {
+        padding: 15px;
+    }
+    .icon {
+        display: block;
+    }
+    .nav-links {
+        display: none;
+    }
+}
