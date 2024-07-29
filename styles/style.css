@@ -42,7 +42,7 @@
     margin: 0 auto;
 }
 .nav-brand{
-    font-size: 2.1rem;
+    font-size: 2.2rem;
     font-weight: bolder;
     color: #E6533C;
     font-style: italic;
@@ -73,7 +73,7 @@
     margin-top: 50px;
 }
 /*Banner related styles*/
-.banner-section{
+.banner-section, .card-container{
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -88,9 +88,9 @@
     height: 500px;
 }
 .banner-title {
-    font-size: 4.2rem;
+    font-size: 4.8rem;
     font-weight: 800;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 20px;
 }
 .banner-des {
@@ -154,4 +154,93 @@
  .button-2 {
     position: absolute;
     top: 100%;
+}
+
+/*Change related style*/
+.change-sec {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.change-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-top: 70px;
+    margin-bottom: 15px;
+}
+.change-des {
+    font-size: 1rem;
+    margin-bottom: 25px;
+}
+/*Card related styles*/
+.card-container {
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.card {
+    width: 20%;
+    text-align: center;
+}
+.card .card-img {
+    height: 70%;
+    width: 70%;
+    border-radius: 50%;
+}
+.card-title  {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.card-des {
+    font-size: .8rem;
+    margin-bottom: 10px;
+}
+/*Run section related styles*/
+.run-width {
+
+}
+.run-container {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #303030;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+.run-text {
+    width: 50%;
+    margin-left: 20px;
+}
+.run-title {
+    margin-top: 10px;
+}
+.run-btn {
+    margin-bottom: 10px;
+}
+.run-img {
+    width: 50%;
+}
+.runing-man {
+    width: 90%;
+    height: 260px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.bmi-div {
+    width: 40%;
+    margin: 0 auto;
+}
+.bmi-title {
+    margin-top: 60px;
+    width: max-content;
+    margin-bottom: 5px;
+    font-size: 2.5rem;
+}
+.bmi-des {
+    margin-bottom: 50px;
 }

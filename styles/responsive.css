@@ -6,10 +6,14 @@
         display: block;
         
     }
+    .banner-title {
+        margin-top: 0px;
+        margin-right: 20px;
+    }
     .nav-links {
         display: none;
     }
-    .banner-container {
+    .banner-container,  .run-container {
         flex-direction: column;
     }
     .banner-title, .banner-des{
@@ -37,5 +41,37 @@
      .button-2 {
         position: absolute;
         top: 110%;
+    }
+    .change-sec {
+        width: 100%;
+    }
+    .change-title {
+        padding: 0px 5px;
+    }
+    .change-des {
+        padding: 0px 5px;
+    }
+    .card-container {
+        flex-direction: column;
+    }
+    .card{
+        width: 100%;
+    }
+    .run-container{
+        width: 100%;
+    }
+    .run-text {
+        width: 100%;
+    }
+    .run-img {
+        width: 100%;
+    }
+    .bmi-div {
+        width: 100%;
+        text-align: left;
+        padding: 0px 18px;
+    }
+    .bmi-des {
+        margin-left: -2px;
     }
 }
