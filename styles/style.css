@@ -231,6 +231,7 @@
     margin-bottom: 10px;
     margin-left: 20px;
 }
+/*BMI title related styles*/
 .bmi-div {
     width: 40%;
     margin: 0 auto;
@@ -244,3 +245,180 @@
 .bmi-des {
     margin-bottom: 50px;
 }
+/*BMI menu related styles */
+.bmi-div-menu {
+
+}
+.bmi-chart {
+    display: flex;
+    height: 410px;
+  }
+  .bmi {
+    width: 40%;
+    background-color: rgba(34, 34, 34, 1);
+  }
+  .bmi h4 {
+    font-size: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .bmi table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  .bmi thead td {
+    color: aliceblue;
+    font-size: 14px;
+  }
+  .bmi td {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.5);
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .bmi2 {
+    width: 60%;
+    background-color: rgba(34, 34, 34, 1);
+  }
+  .bmi2 h4{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+  .bmi2 p{
+    width: 570px;
+    height: 98px;
+    size: 13px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 15px;
+    margin-bottom: 0px; 
+  }
+  .bmi2 input[type=number] {
+    width: 250px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+    margin-top: 0px;
+  }
+  .bmi2 input[type=text] {
+    width: 250px;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+  }
+  .bmi2 textarea {
+    width: 57%;
+    height: 35px;
+    background-color:rgba(255, 255, 255, 0.1);
+    color:rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    padding-left: 10px;
+    font-weight: bold;
+    resize: none;
+  }
+  .btn-primary-bmi {
+    padding: 10px 30px;
+    border: none;
+    border-radius: 50px;
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-right: 10px;
+  }
+  /*Team related styles*/
+  .team-title-div {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40%;
+    text-align: center;
+  }
+  .team-container {
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .team-card {
+    position: relative;
+  }
+  .team-card-img img {
+    width: 100%;
+    height: 250px;
+    border-radius: 15px;
+  }
+  .img-text {
+    color: white;
+    position: absolute;
+
+    left: 5%;
+    bottom: 5%;
+  }
+  /*Footer part styles*/
+.footer {
+    background-color: rgba(34, 34, 34, 1);
+    overflow: hidden;
+  }
+  .footer .last-sec {
+    width: 1440px;
+    margin: 0 auto;
+    background-color: rgba(34, 34, 34, 1);
+    display: flex;
+    margin-top: 50px;
+  }
+  .footer .size{
+    width: 40%;
+    margin-left:260px;
+    margin-top: 15px;
+  }
+  .footer .last-sec .size-container {
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    margin-left: -450px;
+  } 
+.footer .last-sec .size-1 {
+    width: 30%;
+    margin-left: 0px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .footer .last-des-1 .size-2 {
+    width: 30%;
+    margin-left: 160px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  .footer .size .italic {
+    font-style: italic;
+    margin: 15px 0px;
+  }
+  .copy-right {
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  .footer hr {
+    width:65%;
+    margin: 0 auto;
+  }
+  

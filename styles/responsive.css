@@ -35,12 +35,12 @@
     #position {
         position: absolute;
      
-        top: 95%;
+        top: 85%;
         right: 3%;
      }
      .button-2 {
         position: absolute;
-        top: 130%;
+        top: 110%;
     }
     .change-sec {
         width: 100%;
@@ -74,4 +74,94 @@
     .bmi-des {
         margin-left: -2px;
     }
+    .bmi-chart {
+        flex-direction: column;
+    }
+    .bmi {
+        width: 100%;
+    }
+    .bmi h4{
+        margin-left: 50px;
+    }
+    .bmi2 {
+        width: 100%;
+    }
+    .bmi2 input[type=number] {
+        width: 40%;
+    }
+    .bmi2 input[type=text] {
+        width: 40%;
+    }
+    .bmi2 textarea {
+        width: 86%;
+    }
+    .bmi-title {
+        margin-left:10px;
+    }
+    .bmi table {
+       margin-left: 13px;
+    }
+    .bmi2 h4 {
+        margin-left: 10px;
+    }
+    .bmi2 p {
+        margin-left: 10px;
+    }
+    .bmi2 input[type=number] {
+        margin-left: 10px;
+    }
+    .bmi2 input[type=text] {
+        margin-left: 10px;
+    }
+    .bmi2 textarea {
+        margin-left: 10px;
+    }
+    .btn-primary-bmi {
+        margin-left: 10px;
+    }
+    .btn-primary-bmi {
+        padding: 10px 40px;
+    }
+    .team-title-div {
+        width: 100%;
+        margin-top: 300px;
+    }
+    .team-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-card-img img {
+        width: 40%;
+        margin: 0 auto;
+        margin-left: 15px;
+    }
+    .last-sec {
+       flex-direction: column;
+    }
+    .size-container {
+        flex-direction: column;
+    }
+    .footer .size{
+        width: 100%;
+        margin-left:15px;
+    }
+    .footer-des {
+        word-wrap: no-wrap;
+        padding: 0px 10px;
+    }
+    .footer .last-sec .size-container {
+        margin-left: 20px;
+    }
+    .size-1 {
+        width: 100%;
+    }
+    .size-2 {
+        width: 100%;
+    }
+    .footer .last-des-1 .size-2 {
+        margin-left: 5px;
+    }
+    .footer hr {
+        width:100%;
+    }
+    
 }
