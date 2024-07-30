@@ -260,10 +260,10 @@
   .bmi h4{
     color: aliceblue;
     font-size: 20px;
+    margin: 0 auto;
     margin-top: 40px;
     margin-bottom: 30px;
     max-width: max-content;
-    text-align: left;
   }
   .bmi table {
     border-collapse: collapse;
@@ -271,13 +271,13 @@
   }
   .bmi thead td {
     color: aliceblue;
-    font-size: 14px;
+    font-size: 16px;
   }
   .bmi td {
     border: 1px solid rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.5);
     padding: 5px 10px;
-    font-size: 12px;
+    font-size: 14px;
   }
   .bmi2 {
     width: 60%;
