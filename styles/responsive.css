@@ -182,10 +182,13 @@
     .footer .last-des-1 .size-2 {
         margin-left: 5px;
     }
+    .footer-description {
+        margin-left: -1px;
+    }
     .footer-des {
-            width: 350px;
+            width: 320px;
             word-wrap: no-wrap;
-            margin-left: -4px;
+            padding: 0px;
     }
     .footer hr {
         width:100%;

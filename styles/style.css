@@ -232,9 +232,12 @@
     margin-left: 20px;
 }
 /*BMI title related styles*/
+.bmi-section {
+    padding: 25px;
+}
 .bmi-div {
     width: 40%;
-    margin: 0 auto;
+    margin-left: -38px;
 }
 .bmi-title {
     margin-top: 60px;
@@ -244,6 +247,8 @@
 }
 .bmi-des {
     margin-bottom: 50px;
+    max-width: max-content;
+    margin-left: 6px;
 }
 /*BMI menu related styles */
 .bmi-div-menu {
