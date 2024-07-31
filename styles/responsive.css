@@ -81,7 +81,8 @@
         width: 100%;
     }
     .bmi h4{
-        margin-left: 50px;
+        max-width: max-content;
+        text-align: left;
     }
     .bmi2 {
         width: 100%;
@@ -104,9 +105,6 @@
     .bmi2 h4 {
         text-align: left;
         margin-left: 2px;
-    }
-    .bmi2 p {
-        margin-left: 10px;
     }
     .bmi2 input[type=number] {
         margin-left: 10px;
@@ -133,7 +131,7 @@
     .team-card-img img {
         width: 35%;
         margin: 0 auto;
-        margin-left: 5px;
+        margin-left: -10px;
     }
     .last-sec {
        flex-direction: column;
