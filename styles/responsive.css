@@ -183,10 +183,10 @@
         margin-left: 5px;
     }
     .footer-des {
-            margin-right: 5px;
-            width: 100%;
+            border: 1px solid blueviolet;
+            width: 350px;
             word-wrap: no-wrap;
-            margin-left: 3px;
+            margin-left: -4px;
     }
     .footer hr {
         width:100%;
