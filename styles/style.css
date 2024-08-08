@@ -386,6 +386,7 @@ textarea {
 @media screen and (max-width:576px) {
     .navber {
         padding: 15px;
+        margin-bottom: 60px;
     }
     .icon {
         display: block;
@@ -433,12 +434,12 @@ textarea {
     #position {
         position: absolute;
      
-        top: 75%;
+        top: 82%;
         right: 3%;
      }
      .button-2 {
         position: absolute;
-        top: 100%;
+        top: 110%;
     }
 
 
