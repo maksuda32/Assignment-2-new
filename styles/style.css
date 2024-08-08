@@ -227,7 +227,10 @@
 /*BMI calculator section styles*/
 .bmi {
     margin-left: 100px;
-    margin-bottom: 220px;
+    margin-bottom: 200px;
+}
+.bmi2 {
+    margin-bottom: 20px;
 }
 .bmi-chart {
     justify-content: space-between;
