@@ -40,7 +40,7 @@
 .header {
 
 }
-.navber, .banner-section, .bmi-section, .bmi-chart, .team-container {
+.navber, .banner-section, .bmi-section, .bmi-chart, .team-container, .last-sec, .half-foot {
     max-width: 1100px;
     margin: 0 auto;
 }
@@ -272,6 +272,9 @@ input[type="number"] {
     padding: 0px 10px;
     margin-right: 8px;
 }
+::placeholder {
+    color: white;
+}
 textarea {
     width: 86%;
     height: 13%;
@@ -279,7 +282,7 @@ textarea {
     border: none;
     outline: none;
     background-color:rgba(255, 255, 255, 0.225);
-    padding: 0px 10px;
+    padding: 10px 10px;
     margin-right: 8px; 
     resize: none;
 }
@@ -296,18 +299,17 @@ textarea {
     text-align: center;
     margin: 0 auto;
     margin-top: 50px;
-    margin-bottom: 30px;
 }
 
 
 
 
 .team-container {
-    margin-bottom: 80px;
     border-radius: 15px;
+    margin-bottom: 90px;
 }
 .team-parent {
-    padding: 20px;
+    padding: 15px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
@@ -326,9 +328,44 @@ textarea {
     color: aliceblue;
     top: 220px;
     left: 10px;
-
 }
 
+
+
+
+
+
+.last-sec {
+    align-items: center;
+}
+.last-des-1 {
+    width: 50%;
+}
+.size h1 {
+    margin-bottom: 25px;
+}
+.footer-des {
+    font-size: 1rem;
+    font-weight: 800;
+}
+.size-container {
+    width: 50%;
+    gap: 40px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+
+.foot {
+    margin-bottom: 30px;
+}
+.foot hr {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.foot p {
+    text-align: center;
+}
 
 
 
@@ -546,12 +583,12 @@ textarea {
 
 
 
-
+    #team-text-title{
+        margin-top: -190px;
+    }
     .team-section {
         width: 100%;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        background-color: #E6533C;
+        margin-bottom: 20px;
     }
     .team-title-div {
         width: 100%;
@@ -560,22 +597,30 @@ textarea {
     .team-parent {
         grid-template-columns: repeat(1, 1fr);
     }
+
+
+
+
+
     .last-sec {
        flex-direction: column;
     }
     .size-container {
         flex-direction: column;
     }
-    .footer .size{
+    .last-des-1{
         width: 100%;
-        margin-left:15px;
+        margin: 0px 0px;
+        margin-left: 20px;
     }
     .footer-des {
         word-wrap: no-wrap;
-        padding: 0px 10px;
+        padding-right: 20px;
+        font-weight: normal;
+        align-items: justify;
     }
-    .footer .last-sec .size-container {
-        margin-left: 20px;
+    .size-container {
+        margin-left: 0px;
     }
     .size-1 {
         width: 100%;
@@ -585,14 +630,6 @@ textarea {
     }
     .footer .last-des-1 .size-2 {
         margin-left: 5px;
-    }
-    .footer-description {
-        margin-left: -1px;
-    }
-    .footer-des {
-            width: 320px;
-            word-wrap: no-wrap;
-            padding: 0px;
     }
     .footer hr {
         width:100%;
